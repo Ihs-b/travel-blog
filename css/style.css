@@ -71,3 +71,26 @@
 }
 
 
+.newsletter{
+    background-color: #F5EEE6;
+    color: #436B6E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px orange;
+}
+
+/* .newsletter-input{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* .enveloppe-icon{
+    z-index: 0;
+
+} */
+
+footer{
+    background-color: #436b6eae;
+    color: white;
+}
