@@ -31,17 +31,43 @@
     display: block;
 } */
 
-/* .all-posts{
-    margin: 100px 0;
-} */
+.all-posts{
+    margin: 100px auto;
+    border: solid 1px hotpink;
+    width: 85%;
+    text-align: center;
+
+}
+
+.all-posts button{
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #436B6E;
+    background-color: #F5EEE6;
+    border: none;
+}
 
 .blogpost{
     width: 50%;
-    margin: 0 auto;
+    margin: 100px auto;
+    text-align: left;
+    border: solid 1px yellow;
 }
 
-.post-img{
+.post-img1{
     width: 30%;
-    /* float:left; */
+    float:left;
     margin-right: 20px;
 }
+.post-img2{
+    width: 30%;
+    float:right;
+    margin-left: 20px;
+}
+.post-img3{
+    width: 30%;
+    float:left;
+    margin-right: 20px;
+}
+
+
