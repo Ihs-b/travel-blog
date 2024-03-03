@@ -9,27 +9,26 @@
     background-size: 100%;
 } */
 
-
-
-.recent-posts{
-    width:50%;
-    margin: 0 auto;
-}
-
-.recent-posts img{
-    border-radius: 20%;   
-}
-
-.recent-posts p {
-    background-color: rgba(20, 10, 10, 0.391);
-    border-radius: 20%;
-    height:  50%;
+.slide-image {
+    max-width: 40%;
+    margin: 0 20px;
+    border-radius: 20px;
 }
 
 
-/* .all-posts h2{
-    display: block;
-} */
+.slide-items{
+    padding: 7% 15%;
+    position: relative;
+}
+
+.slide-item{
+    /*width: 80%;*/
+    /*border: solid hotpink;*/
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+}
+
 
 .all-posts{
     margin: 100px auto;
