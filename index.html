@@ -138,18 +138,22 @@
                 iure repellendus totam consequulendus totam consequulendus totam consequuntur sapiente.</p>
         </div>
     </div>
-        <section class="newsletter">
-            <!-- <div> -->
-            <img alt="newsletter-icon" class="enveloppe-icon" src="assets/send-message.png">
-            <h1> Newsletter</h1>
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <img alt="newsletter-icon" class="envelope-icon" src="assets/send-message.png" />
+            <h2>Newsletter</h2>
             <p>Abonnez-vous pour recevoir nos derniers articles</p>
-            <!-- <i class="fa-regular fa-envelope"></i> -->
-            <!-- </div> -->
-            <!-- <div class="newsletter-input"> -->
-            <input id="" name="" placeholder="Email" type="email">
-            <input id="" type="button" value="Abonnez-vous">
-            <!-- </div> -->
-        </section>
+        </div>
+        <form action="" method="POST" class="newsletter-form">
+            <div class="form-group">
+                <label for="email" class="visually-hidden">Email</label>
+                <input id="email" name="email" placeholder="Email" type="email" aria-label="Email" required class="email-input">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="subscribe-button">Abonnez-vous</button>
+            </div>
+        </form>
+    </section>
 </main>
 <footer>
     <ul>
