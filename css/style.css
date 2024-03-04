@@ -14,8 +14,11 @@ header{
     text-decoration: none;
     list-style-type: none;
     color: white;
-
 }
+.liens{
+    background-color: #4b15153f;
+}
+
 .titre{
     margin-top: 0px;
     text-align: center;
@@ -206,4 +209,53 @@ main h1{
 .navbar_2 a{
     text-decoration: none;
     color: #F5EEE6
+}
+
+.contact-main{
+    width: 50%;
+    margin: 0 auto;
+}
+.contact-form{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-div label{
+    margin-left: 14px;
+    color: #436B6E;
+}
+
+
+.box{
+    padding: 12px;
+    margin: 10px;
+    background-color: #F5EEE6;
+    border-radius: 20px;
+    border: solid 1px #3e6f73;
+    outline: none;
+    color:#3e6f73
+}
+
+#submit {
+    align-self: flex-end;
+    padding: 12px 30px;
+    width: 30%;
+    margin-top: 20px;
+    background-color: #F5EEE6;
+    color:#436B6E;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #436b6eae;
 }
