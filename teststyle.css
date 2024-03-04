@@ -3,6 +3,74 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+header{
+    position: relative;
+    background-image: url(assets/image_header.jpg);
+    height: 61rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+}
+.liens  li,a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+
+}
+.titre{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    font-family: "Inspiration", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 75px;
+
+}
+
+hr{
+    margin: 1rem 0;
+    color: white;
+    border: solid 10px;
+    border-top: var(--bs-border-width) solid;
+    opacity: 63%;
+}
+.navbar-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px ;
+}
+
+.barre{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #436B6E;
+    opacity: 70%;
+    color: white;
+    font-size: 3vw;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 25px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .slide-text{
     color: #436B6E;
     /*width: 30%;*/
@@ -24,7 +92,7 @@ body {
 }
 
 .slide-item{
-    border: solid hotpink;
+    /* border: solid hotpink; */
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -33,10 +101,11 @@ body {
 
 
 .newsletter {
-    background-color: #fff;
+    background-color: #F5EEE6;
+    color: #436B6E;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    max-width: 500px;
+    /* max-width: 500px; */
     margin: 40px auto;
     padding: 40px;
     text-align: center;
@@ -47,13 +116,15 @@ body {
 }
 
 .newsletter p {
-    color: #7a7a7a;
+    /* color: #436B6E; */
     margin-bottom: 30px;
 }
 
 .newsletter .form-group {
+    max-width:30%;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .newsletter .email-input {
@@ -65,7 +136,7 @@ body {
 }
 
 .newsletter .subscribe-button {
-    background-color: #007bff;
+    background-color: #436B6E;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -74,5 +145,37 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+
+
+.footer_create{
+    background-color: #436B6E;
+    height: 200px;
+    font-size: 20px;
+    width: 100%;
+
+}
+
+.navbar_2{
+    height: 200px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+.navbar_2 li {
+    list-style-type: none;
+
+}
+
+.navbar_2 a{
+    text-decoration: none;
+    color: #F5EEE6
+}
+
 
 
