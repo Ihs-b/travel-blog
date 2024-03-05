@@ -261,10 +261,24 @@ main h1{
 .form-div{
     display: flex;
     flex-direction: column;
-
+}
+.login-form{
+    display: flex;
+    justify-content: center;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
 }
 
-.form-div label{
+.form2{
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    }
+
+label{
     margin-left: 14px;
     color: #436B6E;
 }
@@ -277,7 +291,8 @@ main h1{
     border-radius: 20px;
     border: solid 1px #3e6f73;
     outline: none;
-    color:#3e6f73
+    color:#3e6f73;
+    width: 260px;
 }
 
 #submit {
