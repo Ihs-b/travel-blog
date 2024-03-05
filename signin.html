@@ -16,42 +16,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Inspiration&family=Pacifico&display=swap">
+    <script src="https://kit.fontawesome.com/061abbb655.js" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
     <header class="header">
         <h1 class="titre"><a href="index.html">Your Travel Tales</a></h1>
-        
         <nav class="liens">
             <hr>
             <ul class="navbar-1">
-                <li><a href="index.html">Posts</a></li>
-                <li><a href="login.html">Se Connecter</a></li>
-                <li><a href="signin.html">S'inscrire</a></li>
+                <li><a href="">Posts</a></li>
+                <li><a href="">Se Connecter</a></li>
+                <li><a href="">S'inscrire</a></li>
             </ul>
             <hr>
         </nav>
-       
         <div class="barre">
-            <h1 class="titre_2">Contactez-nous</h1>
+            <h1 class="titre_2">Sign in</h1>
         </div>
     </header>
-    <main class="contact-main">
-        <form class="contact-form" action="index.html">
-            <div class="form-div">
-                <label for="fname">First Name</label>
-                <input class="box" type="text" name="fname" id="">
-                <label for="lname">Last Name</label>
-                <input class="box" type="text" name="lname" id="">
-                <label for="email">Email</label>
-                <input class="box" type="email" name="email" id="">
-                <label for="objet">Objet</label>
-                <input class="box" type="text" name="object">
-            <label for="message">Message</label>
-            <textarea class="box" name="text" id="" cols="50" rows="20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi quod soluta dolor, totam repudiandae minima eius perferendis dolorem necessitatibus ab eos temporibus incidunt adipisci dignissimos! Laudantium consequuntur quia minima!</textarea>
-            <input type="submit" id="submit" value="Envoyez">
+
+    <main>
+        <div class="form-div">
+            <form class="signin-form" class="POST">
+                <label class="label" for="prenom">Prenom</label>
+                <input class="box" type="text" name="prenom" id="">
+                <label class="label" for="nom">Nom</label>
+                <input class="box" type="text" name="nom" id="">
+                <label class="label" for="nom d'utilisateur"> Email</label>
+                <input class="box" type="email" name="nom d'utilisateur" id="">
+                <label class="label" for="mot de passe"> Mot de passe</label>
+                <input class="box" type="password" name="mot de passe" id="">
+                <label class="label" for="confirmation/mot de passe"> Confirmation/Mot de passe</label>
+                <input class="box" type="password" name="confirmation/mot de passe" id="">
+                <button id="submit" type="button">Créer</button>
+            </form>
         </div>
-        </form>
     </main>
     <footer class="footer-create">
         <nav class="liens">
