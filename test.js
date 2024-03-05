@@ -1,0 +1,1 @@
+document.getElementsByClassName('slide-item').addEventListener("click")

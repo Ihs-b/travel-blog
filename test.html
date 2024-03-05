@@ -9,26 +9,20 @@
     <title>carousel</title>
     <link href="teststyle.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Inspiration&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/061abbb655.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="titre">Your Travel Tales</h1>
-        <hr>
-        <nav class="liens">
-            <ul class="navbar-1">
-                <li><a href="#">Posts</a></li>
-                <li><a href="#">Se Connecter</a></li>
-                <li><a href="#">S'inscrire</a></li>
-            </ul>
-        </nav>
-        <hr>
-        <div class="barre">
-            <h1 class="titre-2">Rédiger un nouveau post</h1>
-        </div>
-    </header>
     <main>
-        <div class="carousel slide" id="carouselExampleIndicators" data-bs-ride="carousel">
+        <div class="carousel slide" id="carouselExampleIndicators">
+            <!-- <div class="carousel slide" id="carouselExampleIndicators" data-bs-ride="carousel"> -->
             <div class="carousel-indicators">
                 <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
                     data-bs-target="#carouselExampleIndicators" type="button"></button>
@@ -38,28 +32,32 @@
                     type="button"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="2000">
+                <div class="carousel-item active">
+                    <!-- <div class="carousel-item active" data-bs-interval="2000"> -->
                     <div class="slide-item">
-                        <img alt="..." class="slide-image" src="assets/beach.jpg">
+                        <a class="slide-a" href="index.html"><img class="slide-image" src="assets/beach.jpg"></a>
                         <div class="slide-text">
-                            <h5>First slide label</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veniam unde ipsum corrupti
-                                odit,
-                                enim
-                                autem, consectetur ex dicta placeat numquam maxime nesciunt maiores magnam deleniti et
-                                quos,
-                                nisi
-                                sed quaerat debitis laboriosam. Iste amet, accusamus doloremque unde error excepturi
-                                commodi,
-                                dicta
-                                reiciendis eius itaque impedit reprehenderit, ea ducimus labore!</p>
-
+                            <a href="index.html">
+                                <h5>First slide label</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veniam unde ipsum
+                                    corrupti
+                                    odit,
+                                    enim
+                                    autem, consectetur ex dicta placeat numquam maxime nesciunt maiores magnam deleniti
+                                    et
+                                    quos,
+                                    nisi
+                                    sed quaerat debitis laboriosam. Iste amet, accusamus doloremque unde error excepturi
+                                    commodi,
+                                    dicta
+                                    reiciendis eius itaque impedit reprehenderit, ea ducimus labore!</p>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-item">
                     <div class="slide-item">
-                        <img alt="..." class="slide-image" src="assets/beach.jpg">
+                        <img alt="beach-image" class="slide-image" src="assets/beach.jpg">
                         <div class="slide-text">
                             <h5>second slide label</h5>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veniam unde ipsum corrupti
@@ -76,9 +74,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-item">
                     <div class="slide-item">
-                        <img alt="..." class="slide-image" src="assets/beach.jpg">
+                        <img alt="beach-image" class="slide-image" src="assets/beach.jpg">
                         <div class="slide-text">
                             <h5>third slide label</h5>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic veniam unde ipsum corrupti
@@ -125,16 +123,27 @@
             </form>
         </section>
     </main>
-    <footer class="footer_create">
+    <footer class="footer-create">
         <nav class="liens">
-            <ul class="navbar_2">
-                <li><a href="">Acceuil</a></li>
+            <ul class="navbar-2">
                 <li><a href="">Posts</a></li>
-                <li><a href="">Se déconnecter</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="">Se Connecter</a></li>
+                <li><a href="">S'inscrire</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <div class="socials">
+            <h5>Suivez-nous:</h5>
+            <div class="social-list">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <p class="copyrights">© 2024, JIT Company.</p>
     </footer>
+    <!-- <script src="test.js"></script> -->
 </body>
 
 </html>
