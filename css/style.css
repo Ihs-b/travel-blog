@@ -230,7 +230,6 @@ main h1{
 
 }
 
-
 .social-list a{
     text-decoration:none;
     color: black;
@@ -242,11 +241,47 @@ main h1{
     margin-bottom: 0;
     text-align: center;
 }
-.contact-main{
+.titre_post{
+    font-size: 50px;
+    color: #266589;
+}
+.main_verif,.main_read{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.description_post{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    font-size: 20px;
+}
+.img_verif,.img_read{
+    width: 300px;
+    border-radius: 10px ;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.img_verif:hover, .img_read:hover{
+    width: 600px;
+}
+
+.contact-main, .blog-main{
     width: 50%;
     margin: 0 auto;
 }
-.contact-form{
+
+.blog-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form, .post-form{
     width: 70%;
     margin: 50px auto;
 }
@@ -262,21 +297,17 @@ main h1{
     display: flex;
     flex-direction: column;
 }
+
 .login-form{
     display: flex;
     justify-content: center;
 }
-.form1{
+
+.form-part{
     display: flex;
     flex-direction: column;
     padding: 8%;
 }
-
-.form2{
-    display: flex;
-    flex-direction: column;
-    padding: 8%;
-    }
 
 label{
     margin-left: 14px;
@@ -292,7 +323,7 @@ label{
     border: solid 1px #3e6f73;
     outline: none;
     color:#3e6f73;
-    width: 260px;
+    /* width: 260px; */
 }
 
 #submit {
@@ -311,4 +342,15 @@ label{
 #submit:hover {
     cursor: pointer;
     background-color: #436b6eae;
+}
+
+.textarea_2{
+    height: 1200px;
+    width: 800px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #F5EEE6;
+    border: 1px solid black;
+    overflow: clip;
+    font-family: Arial, Helvetica, sans-serif;
 }

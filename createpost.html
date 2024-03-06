@@ -37,7 +37,30 @@
             <h1 class="titre_2">Rédiger un nouveau post</h1>
         </div>
     </header>
- 
+    <main class="blog-main">
+        <form class="post-form" action="POST">
+            <div class="form-div">
+            <label for="">Titre</label>
+            <input class="box" type="text" name="">
+            <label for="">Auteur</label>
+            <input class="box" type="text" name="">
+            <label for="">Pays</label>
+            <select class="box" name="country_select">
+                <option value="">Choisissez Le pays</option>
+                <option value="France">France</option>
+                <option value="Angleterre">Angleterre</option>
+                <option value="Espagne">Espagne</option>
+                <option value="Italie">Italie</option>
+                <option value="Portugal">Portugal</option>
+            </select>
+            <label  for="">Image URL</label>
+            <input class="box" type="url" name="">
+            <label for="">Texte</label>
+            <textarea class="box" name="" cols="30" rows="10"> </textarea>
+            <button id="submit">Envoyer</button>
+        </div>
+        </form>
+    </main>
     <section class="newsletter">
         <div class="newsletter-content">
             <!-- <img alt="newsletter-icon" class="envelope-icon" src="assets/send-message.png" /> -->
