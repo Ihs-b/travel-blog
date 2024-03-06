@@ -348,9 +348,9 @@ label{
     height: 1200px;
     width: 800px;
     font-size: 20px;
-    border-radius: 20px;
-    background-color: #F5EEE6;
-    border: 1px solid black;
+    /* border-radius: 20px; */
+    /* background-color: #F5EEE6; */
+    /* border: 1px solid black; */
     overflow: clip;
     font-family: Arial, Helvetica, sans-serif;
 }
