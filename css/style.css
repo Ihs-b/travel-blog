@@ -265,9 +265,9 @@ main h1{
     border: 1px solid black;
     cursor: pointer;
 }
-.img_verif:hover, .img_read:hover{
+/* .img_verif:hover, .img_read:hover{
     width: 600px;
-}
+} */
 
 .contact-main, .blog-main{
     width: 50%;
